@@ -34,6 +34,10 @@ namespace Mathex
 
 		Vector3D(const float a, const float b, const float c) : x(a), y(b), z(c) {};
 
+		Vector3D(const Vector2D v, const float a) : x(v.x), y(v.y), z(a) {};
+
+		Vector3D(const float a, const Vector2D v) : x(v.x), y(v.y), z(a) {};
+
 		~Vector3D() = default;
 
 		inline void Clear()
