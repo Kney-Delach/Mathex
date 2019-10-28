@@ -46,9 +46,9 @@ Please follow these steps to report a bug
 
 1. **Search for related issues** - search the existing issues so that you don't create duplicates.
 
-2. **Create a testcase** - Please create the smallest isolated testcase that you can that reproduces your bug.
+2. **Create a test case** - please create the smallest possible isolated test case that reproduces your bug.
 
-3. **Share as much information as possible** - everything little helps, OS, drivers, all that stuff.
+3. **Share as much information as possible** - every little bit of information helps, OS, drivers, all that stuff.
 
 <a name="license"></a>
 ## License 
