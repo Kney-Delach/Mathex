@@ -28,7 +28,7 @@ A lightweight math library developed as a learning exercise from scratch.
 
 |**Name**|**Description**|**Version**|**Tests**|**Status**|
 |:------:|:-------------:|:---------:|:-------:|:--------:|
-|[Vector2D](/Mathex/Mathex/Mathex/src/Vectors/Vector2D.h)|A 2D vector representation, with overloaded operations, including the ostream operand in a seperate [file](/Mathex/Mathex/Mathex/src/Vectors/Streams/V2Stream.h).|![active][version-1.0.0]|![Processing][updating]|![Active][active]|
+|[Vector2D](/Mathex/Mathex/src/Vectors/Vector2D.h)|A 2D vector representation, with overloaded operations, including the ostream operand in a seperate [file](/Mathex/Mathex/Mathex/src/Vectors/Streams/V2Stream.h).|![active][version-1.0.0]|![Processing][updating]|![Active][active]|
 
 <a name="getting-started"></a>
 ## Getting Started
