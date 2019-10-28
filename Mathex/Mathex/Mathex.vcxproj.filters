@@ -12,6 +12,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Mathex.h" />
     <ClInclude Include="src\Matrices\Matrix3D.h">
       <Filter>Matrices</Filter>
     </ClInclude>
@@ -30,7 +31,7 @@
     <ClInclude Include="src\Vectors\Vector4D.h">
       <Filter>Vectors</Filter>
     </ClInclude>
-    <ClInclude Include="src\Mathex.h" />
+    <ClInclude Include="src\Vectors\Streams\V3Stream.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Mathex.cpp" />

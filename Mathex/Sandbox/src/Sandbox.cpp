@@ -14,6 +14,7 @@
  */
 #include <iostream>
 #include "Vectors/Streams/V2Stream.h"
+#include "Vectors/Streams/V3Stream.h"
 
 using namespace Mathex;
 
@@ -21,8 +22,11 @@ int main()
 {
 	try
 	{
-		const Vector2D v;
-		std::cout << v;
+		const Vector2D v2(1, 2);
+		std::cout << v2;
+
+		const Vector3D v3(1,2,3);
+		std::cout << v3;
 	} 
 	catch(...) {}
 
