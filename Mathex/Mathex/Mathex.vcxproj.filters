@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Matrices">
+      <UniqueIdentifier>{9DEF31CD-89BC-8CD8-B2D5-7A809E01C266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vectors">
+      <UniqueIdentifier>{EB0AAAD2-57EA-286E-6002-B444CC608FCF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vectors\Streams">
+      <UniqueIdentifier>{99ED6513-0579-D3D7-0E8A-56CC7A942FD8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Matrices\Matrix3D.h">
+      <Filter>Matrices</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Matrices\Matrix4D.h">
+      <Filter>Matrices</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vectors\Streams\V2Stream.h">
+      <Filter>Vectors\Streams</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vectors\Vector2D.h">
+      <Filter>Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vectors\Vector3D.h">
+      <Filter>Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vectors\Vector4D.h">
+      <Filter>Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mathex.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Mathex.cpp" />
+  </ItemGroup>
+</Project>

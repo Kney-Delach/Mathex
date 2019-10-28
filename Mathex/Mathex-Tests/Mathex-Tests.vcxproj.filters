@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Matrices-Tests">
+      <UniqueIdentifier>{141B26CF-00FF-E624-695F-E1775562D1A6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Vectors-Tests">
+      <UniqueIdentifier>{024E9600-6E64-9496-B7DB-1FB82331651E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\pch.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Matrices-Tests\Matrix3DTests.cpp">
+      <Filter>src\Matrices-Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Vectors-Tests\Vector2DTests.cpp">
+      <Filter>src\Vectors-Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pch.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
