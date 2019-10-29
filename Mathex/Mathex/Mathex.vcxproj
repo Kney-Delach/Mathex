@@ -93,6 +93,8 @@
     <ClInclude Include="src\Matrices\Matrix3D.h" />
     <ClInclude Include="src\Matrices\Matrix4D.h" />
     <ClInclude Include="src\Vectors\Streams\V2Stream.h" />
+    <ClInclude Include="src\Vectors\Streams\V3Stream.h" />
+    <ClInclude Include="src\Vectors\Streams\V4Stream.h" />
     <ClInclude Include="src\Vectors\Vector2D.h" />
     <ClInclude Include="src\Vectors\Vector3D.h" />
     <ClInclude Include="src\Vectors\Vector4D.h" />

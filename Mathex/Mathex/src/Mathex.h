@@ -17,8 +17,8 @@
 // ------------ Vectors ------------ //
 
 #include "Vectors/Streams/V2Stream.h"
-#include "Vectors/Vector3D.h"
-#include "Vectors/Vector4D.h"
+#include "Vectors/Streams/V3Stream.h"
+#include "Vectors/Streams/V4Stream.h"
 
 // ------------ Matrices ------------ //
 

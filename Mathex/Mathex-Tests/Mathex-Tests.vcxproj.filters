@@ -26,6 +26,8 @@
     <ClCompile Include="src\pch.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="src\Vectors-Tests\Vector3DTests.cpp" />
+    <ClCompile Include="src\Vectors-Tests\Vector4DTests.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
