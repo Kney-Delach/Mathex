@@ -21,7 +21,7 @@ namespace Mathex
 {
 	inline std::ostream& operator <<(std::ostream& out, const Vector4D& vector)
 	{
-		out << "3D Vector ( " << vector.x << " , " << vector.y << " , " << vector.z << " , " << vector.w << " )\n";
+		out << "4D Vector ( " << vector.x << " , " << vector.y << " , " << vector.z << " , " << vector.w << " )\n";
 		return out;
 	}
 }

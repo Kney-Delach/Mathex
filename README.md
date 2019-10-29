@@ -35,7 +35,7 @@ A lightweight math library developed as a learning exercise from scratch.
 <a name="getting-started"></a>
 ## Getting Started
 
-Visual Studio 2017 or 2019 is recommended, Mathex is officially untested on other development environments.
+Visual Studio 2017 or 2019 is recommended, Mathex is untested on other development environments.
 
 You can clone this repository to a local destination using git:
 
@@ -44,7 +44,7 @@ You can clone this repository to a local destination using git:
 <a name="reporting-bugs"></a>
 ## Reporting bugs
 
-Please follow these steps to report a bug
+Please follow these steps to report a bug:
 
 1. **Search for related issues** - search the existing issues so that you don't create duplicates.
 
