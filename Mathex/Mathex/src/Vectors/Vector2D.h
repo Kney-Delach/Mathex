@@ -48,8 +48,8 @@ namespace Mathex
 			const float length = this->Length();
 			if (length != 0)
 			{
-				x *= length;
-				y *= length;
+				x /= length;
+				y /= length;
 			}
 		}
 
